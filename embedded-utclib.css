@@ -110,7 +110,7 @@ a.focus:hover,
   overflow-y: hidden !important;
 }
 .survey-background-image {
-  background-color: #f7f7f7;
+  background-color: whitesmoke;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -746,7 +746,7 @@ margin-bottom: 35px;
 }
 .survey-body-wrapper {
   width: 100%;
-  background: #ffffff;
+  background: whitesmoke;
   margin: 15px auto;
   padding: 26px 15px 0;
   position: relative;
