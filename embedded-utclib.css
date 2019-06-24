@@ -747,8 +747,8 @@ margin-bottom: 35px;
 .survey-body-wrapper {
   width: 100%;
   background: whitesmoke;
-  margin: 15px auto;
-  padding: 26px 15px 0;
+  margin: 10px auto;
+  padding: 0px 15px 0;
   position: relative;
 }
 @media only screen and (min-width: 768px) {
