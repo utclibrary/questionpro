@@ -160,11 +160,11 @@ a.focus:hover,
 }
 .select-wrapper {
   background: rgba(0, 0, 0, 0);
-  border: solid rgba(0, 0, 0, 0.3);
-  border-width: 0 0 1px 0;
+  border: solid 1px darkgrey;
   display: inline-block;
   position: relative;
   vertical-align: middle;
+  background-color: #fff;
 }
 .select-wrapper.has-focus {
   border-bottom: 2px solid #00386b;
@@ -1645,14 +1645,7 @@ margin-bottom: 35px;
   position: relative;
 }
 .survey-body-wrapper .survey-question-wrapper .input-wrapper:before {
-  width: 100%;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.3);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
+display:none;
 }
 .survey-body-wrapper .survey-question-wrapper .input-wrapper:after {
   width: 0;
@@ -1731,9 +1724,8 @@ margin-bottom: 35px;
 }
 .survey-body-wrapper .survey-question-wrapper .form-input {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.02);
-  border: solid transparent;
-  border-width: 0 0 1px 0;
+  background-color: #fff;
+  border: solid 1px darkgrey;
   color: #545E6B;
   display: inline-block;
   font-size: 14px;
@@ -3444,6 +3436,7 @@ margin-bottom: 35px;
   -o-transition: all 0.15s ease-in-out;
   -webkit-transition: all 0.15s ease-in-out;
 }
+
 @media only screen and (min-width: 480px) {
   .survey-body-wrapper .survey-question-wrapper .answer-container.upload-file-question .upload-file-wrapper {
     width: 400px;
@@ -6238,7 +6231,7 @@ margin-bottom: 35px;
 .survey-body-wrapper .btn {
   -webkit-border-radius: 3px ;
   -moz-border-radius: 3px ;
-  border-radius: 3px ;
+  border-radius: 0px ;
   color: #fff;
   display: inline-block;
   font-weight: 400;
