@@ -819,7 +819,7 @@ font-family: exo;
 }
 .survey-body-wrapper .survey-run-form {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 !important;
   width: 100%;
   transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
